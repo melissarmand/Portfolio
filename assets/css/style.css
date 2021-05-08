@@ -9,14 +9,19 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif"
+    font-family: "Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif";
     color: var(--mid-gray);
     background-color: var(--light-gray);
     line-height: 1;   
 }
 
-h1 {
+h1,
+h2 {
     margin: 0
+}
+
+p {
+    margin: 0;
 }
 
 header{
@@ -31,11 +36,79 @@ header{
 }
 
 h1 {
-    font-size: 4.0rem;
-    color: var(--turquoise);
+    font-size: 5rem;
+    color: var(--mid-gray);
+    background-color: var(--turquoise);
+    padding: 0 1px 0 1;
+    margin: 0;
+    line-height: 1;  
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav a {
+    font-size: 2rem;
+    flex-grow: 2.5rem;
+    padding: 0px 15px;
+    color: var(--light-gray);
+    margin-right: 8px;
 
+}
+nav a:hover {
+    background-size: 100% 100%;
+    color: var(--turquoise)
+}
+
+.hero-image {
+    background: var(--light-gray);
+    background-image: url("assets/images/melissa-recent-image-2.jpg");
+    height: 400px;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.page-section {
+    font-size: 1.2rem;
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .page-section h2 {
+      text-align: right;
+      padding-bottom: 9px;
+      border-bottom: 4px solid var(--mid-gray);
+      font-size: 1.5rem;
+  }
+
+.page-section #about{
+    padding-right: 1px;
+}
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+}
 
 
 
