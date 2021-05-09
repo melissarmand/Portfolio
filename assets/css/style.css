@@ -14,6 +14,7 @@ body {
     background-color: var(--light-gray);
     line-height: 1;   
 }
+/*Header Section*/
 
 h1,
 h2 {
@@ -34,6 +35,8 @@ header{
     color: var(--light-gray);
     background-color: var(--mid-gray);
 }
+
+/*Navigation Section*/
 
 h1 {
     font-size: 5rem;
@@ -63,6 +66,8 @@ nav a:hover {
     background-color: var(--light-gray)
 }
 
+/*Hero Image*/
+
 .hero {
     background: var(--light-gray);
     background-image: url(../images/melissa-recent-image-2.jpg);
@@ -71,6 +76,8 @@ nav a:hover {
     background-size: cover;
     background-position: center;
 }
+
+/*Main Section*/
 
 main {
     width: 75%;
@@ -105,6 +112,7 @@ main {
     height: 2px;
 }
 
+/*Aside Section*/
 
 aside {
     margin-right: 20px;
@@ -163,6 +171,8 @@ aside h2 {
   transition: all 0.5s;
   font-size: 1.5rem;
 }
+
+/*Media Queries*/
 
 @media screen and (max-width: 980px) {
         header {
@@ -251,7 +261,7 @@ aside h2 {
           justify-content: center;
           text-align: center;
         }
-      }
+
 
       @media screen and (max-width: 978px) {
         

@@ -10,7 +10,11 @@
     SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
 
+## MOCK UP
 
+The following image shows the web    application's appearance and functionality: 
+
+![The Portfolio Screenshot]("C:\Users\melis\projects\Portfolio\Portfolio\assets\images\Screenshot of Website.png")
 
 ## LINK TO WEBSITE
 
