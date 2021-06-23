@@ -152,8 +152,68 @@ aside h2 {
     background-color: var(--turquoise)
 }
 
-.flex-container {
+.flex-container1 {
   background-image: url(../images/digital-marketing-meeting.png);
+  border: 5px solid var(--mid-gray);
+  background-color: var(--light-gray);
+  color: var(--turquoise);
+  min-height: 150px;
+  max-height: 150px;
+  width: 25%;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 20px 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 1.5rem;
+}
+
+.flex-container2 {
+  background-image: url(../images/Website\ Screenshot.png);
+  border: 5px solid var(--mid-gray);
+  background-color: var(--light-gray);
+  color: var(--turquoise);
+  min-height: 150px;
+  max-height: 150px;
+  width: 25%;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 20px 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 1.5rem;
+}
+
+.flex-container3 {
+  background-image: url(../images/Screenshot\ 2021-06-03\ 060402.png);
+  border: 5px solid var(--mid-gray);
+  background-color: var(--light-gray);
+  color: var(--turquoise);
+  min-height: 150px;
+  max-height: 150px;
+  width: 25%;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 20px 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 1.5rem;
+}
+
+.flex-container4 {
+  background-image: url(../images/Screenshot\ 2021-06-15\ 174531.png);
   border: 5px solid var(--mid-gray);
   background-color: var(--light-gray);
   color: var(--turquoise);
@@ -310,11 +370,4 @@ aside h2 {
           text-align: center;
         }
       }
-
-
-
-
-   
-
-
-
+    }
