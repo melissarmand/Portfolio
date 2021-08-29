@@ -3,7 +3,7 @@
     --outer-space: #33393f;
     --bright-turquoise: #2aefcb;
     --gin: #e0eae4;
-    --heliotrope: #e866ec;
+    --heliotrope: #2ab8ca;
   }
   
   /* set content highlight color and background */
@@ -25,8 +25,8 @@
     /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
     font-size: 1.75rem;
     line-height: 1.5;
-    color: var(--gin);
-    background-color: var(--outer-space);
+    color: var(--outer-space);
+    background-color: var(--gin);
   }
   
   h1,
@@ -99,6 +99,15 @@
     margin: 1.5rem;
     text-align: center;
   }
+ 
+  .hero {
+    background: var(--light-gray);
+    background-image: url(../images/melissa-recent-image-2.jpg);
+    height: 400px;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+}
   
   /* create our main grid with flexbox, use negative margins to offset the padding on the .card-column class */
   .row {
