@@ -39,7 +39,7 @@ header{
 /*Navigation Section*/
 
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     color: var(--mid-gray);
     background-color: var(--turquoise);
     padding: 0 1px 0 1;
@@ -82,6 +82,7 @@ nav a:hover {
 main {
     width: 75%;
     display: inline-block;
+    text-align: center;
     margin-left: 20px;
 }
 
