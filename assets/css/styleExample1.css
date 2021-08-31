@@ -139,12 +139,15 @@
     min-height: 100%;
     padding: 2rem;
     color: var(--heliotrope);
+   
   
     /* outline is like border, but on the outside of the box instead of inside */
     outline: 2px dashed var(--gin);
     outline-offset: -2px;
     transition: all 0.5s ease-in-out;
   }
+
+ 
   
   .code-card .card-header {
     /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
@@ -189,6 +192,10 @@
   /* on <pre> click, select all contents so the code is highlighted */
   .code-card pre:active {
     user-select: all;
+  }
+
+  .code-card1 {
+    background-image: url(../images/digital-marketing-meeting.png);
   }
   
   /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
