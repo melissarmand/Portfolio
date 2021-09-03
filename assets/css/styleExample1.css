@@ -147,6 +147,16 @@
     transition: all 0.5s ease-in-out;
   }
 
+  .aside-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    color: var(--heliotrope);
+    outline: 2px dashed var(--gin);
+  }
+
  
   
   .code-card .card-header {
@@ -194,10 +204,7 @@
     user-select: all;
   }
 
-  .code-card1 {
-    background-image: url(../images/digital-marketing-meeting.png);
-  }
-  
+ 
   /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
   @media screen and (min-width: 768px) {
     /* on tablets, set columns to only be 50% of the width and not grow */

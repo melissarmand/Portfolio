@@ -154,7 +154,6 @@ aside h2 {
 }
 
 .flex-container1 {
-  background-image: url(../images/digital-marketing-meeting.png);
   border: 5px solid var(--mid-gray);
   background-color: var(--light-gray);
   color: var(--turquoise);
