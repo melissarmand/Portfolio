@@ -5,93 +5,127 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Melissa Armand Portfolio</title>
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
-    <header>
-        <h1 class= "page-title"> Melissa Armand </h1>
-        <nav>
-            <a href= "#about">About Me</a>
-            <a href= "#work">My Work</a>
-            <a href= "#contact">Contact Me</a>
-        </nav>
-    </header>
 
-    <div class= "hero"> 
-        
+
+  <header>
+    <h1 class="page-title">
+      Melissa Armand Portfolio
+    </h1>
+
+    <nav>
+        <h3 class= "navigation">
+        <a href= "#about">About Me</a>
+        <a href= "#work">My Work</a>
+        <a href= "#contact">Contact Me</a>
+    </h3>
+    </nav>
+  </header>
+  
+<div class= "hero"> 
+
     </div>
 
-    <main class= "main-info">
-        <section class= "page-section" id="about">
-            <h2>About Me</h2>
-            <div>
-                <p>
-                    Hello! I am Melissa and I excited you decided to learn more about me. Please look around and reach out if you have any questions.
-                </p>
-            </div>
-        </section>
+<section class= "aboutme" id="about">
+    <h5>
+        Hello! I am Melissa and I am a recent attendee of the Full Stack Coding Bootcamp from the University of North Carolina - Charlotte Please look around and reach out if you have any questions.
+    </h5>     
+    
+</section>
 
-        <section class= "page-section" id= "work">
-            <h2>My Work</h2>
-            <div class= "flex-container1">
+  <main>
+    <section class="row justify-center" id= "work">
+      <div class="card-column">
+        <figure class="card code-card">
+          <h2 class="card-header">Horiseon</h2>
+          <div class="card-body">
+            <a href="https://melissarmand.github.io/week-1-hw/" class="example">
+             <img src="assets/images/Horiseons website Screenshot.png" alt= "Marketing meeting" class= "image" height= "100%" width= "100%">
+          </div>
+          <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+          <pre class="code-block"><code> Hoiseon Refactoring </code></pre>
+        </figure>
+    </div>
+      </div>
 
-                <a href="https://melissarmand.github.io/week-1-hw/" class="example">
-                    <div>
-                        <h3>Horiseon</h3>
-                        <span>Refactoring</span>
-                    </div>
-                </a>
-            </div>
+      <div class="card-column">
+        <figure class="card code-card">
+          <h2 class="card-header"> Password Generator</h2>
+          <div class="card-body">
+            <a href="https://melissarmand.github.io/passwordgenerator/" class="example">
+                <img src="assets/images/Password Generator Screenshot.png" alt="screenshot of the website" class="image" height= "100%" width="100%">
+          </div>
+          <pre class="code-block"><code> Password Generator </code></pre>
+        </figure>
+      </div>
 
-            <div class= "flex-container2">
+      <div class="card-column">
+        <figure class="card code-card">
+          <h2 class="card-header"> Day Planner </h2>
+          <div class="card-body">
+            <a href="https://melissarmand.github.io/dayplanner/" class="example">
+                <img src="assets/images/Day Planner Screenshot.png" alt= "screenshot of website" class="image" height= "100%" width="100%">
+          </div>
+          <pre class="code-block"><code> Day Planner </code></pre>
+        </figure>
+      </div>
 
-                <a href="https://melissarmand.github.io/passwordgenerator/" class="example">
-                    <div>
-                        <h3>Password Generator</h3>
-                        <span></span>
-                    </div>
-                </a>
-            </div>
+      <div class="card-column">
+        <figure class="card code-card">
+          <h2 class="card-header"> NBA Player Search </h2>
+          <div class="card-body">
+            <a href="https://jason-m-bailey.github.io/nbaplayersearch/" class="example">
+                <img src= "assets/images/NBA Search Engine Screenshot.png" alt= "screen shot of website" class= "image" height= "100%" width="100%">
+          </div>
+          <pre class="code-block">
+              <code> NBA Player Search  </code></pre>
+        </figure>
+      </div>
 
-            <div class= "flex-container3">
+      <div class="card-column">
+        <figure class="card code-card">
+          <h2 class="card-header"> Team Profile Generator </h2>
+          <div class="card-body">
+            <a href="https://github.com/melissarmand/teamprofilegenerator">
+                <img src="assets/images/Capture.PNG" alt= "screen shot of website" class= "image" height= "100%" width= "100%">
+          </div>
+          <pre class="code-block"><code> Team Profile Generator </code></pre>
+        </figure>
+      </div>
 
-                <a href="https://melissarmand.github.io/dayplanner/" class="example">
-                    <div>
-                        <h3>Day Planner</h3>
-                        <span></span>
-                    </div>
-                </a>
-            </div>
+      <div class="card-column">
+        <figure class="card code-card">
+          <h2 class="card-header"> Professional Read Me Generator </h2>
+          <div class="card-body">
+            <a href="https://github.com/melissarmand/professionalreadmegeneratorr">
+                <img src="assets/images/readme generator GIF.gif" alt= "screen shot of website" class= "image" height= "100%" width= "100%">
+          </div>
+          <pre class="code-block"><code> Professional Read Me Generator </code></pre>
+        </figure>
+      </div>
 
-            <div class= "flex-container4">
+      <div class="card-column">
+        <figure class="card code-card" id= "contact">
+          <h2 class="card-header"> Contact Me </h2>
+          <div class="card-body">
+            <address id= "contact-info">
+                <a href="tel:+17726074665"> 772-607-4665</a>
+                <br> <a href="mailto:melissarmand@gmail.com">melissarmand@gmail.com</a>
+                <br> <a href="https://github.com/melissarmand">GitHub</a> 
+                <br> <a href="https://www.linkedin.com/in/melissa-armand-4477858b/">Linked In</a>
+            </address>
+          </div>
+          <pre class="code-block"><code></code></pre>
+        </figure>
+      </div>
+    </section>
+  </main>
 
-                <a href="https://jason-m-bailey.github.io/nbaplayersearch/" class="example">
-                    <div>
-                        <h3>NBA Player Search</h3>
-                        <span></span>
-                    </div>
-                </a>
-            </div>
-        </section>
-    </main>
 
-    <aside>
-        <section class="aside-section" id="contact" >
-            <h2>Contact Me</h2>
-            <div>
-                <address id= "contact-info">
-                    <a href="tel:+17726074665"> 772-607-4665</a>
-                    <br> <a href="mailto:melissarmand@gmail.com">melissarmand@gmail.com</a>
-                    <br> <a href="#">GitHub</a> 
-                    <br> <a href="#">Linked In</a>
-                </address>
-            </div>
-        </section>
-    </aside>
 </body>
 
 </html>
-
-
